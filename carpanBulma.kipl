@@ -1,0 +1,13 @@
+// Çarpan Bulma
+
+var number: i32 =  21
+var i: i32 = 2
+
+for i <= number / 2 {
+    if number % i == 0 {
+        out i
+        out "\n"
+    }
+
+    i += 1
+}
